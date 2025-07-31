@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeans Tours & Travel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>JT~FOREVER~</h1>
+    <p class="tagline">Quiet Roads. Loud Purpose. Success is our tone.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#hire">Hire</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Jeans Tours</h2>
+      <p>Founded by Governor Patrick K. Ng'ang'a, Jeans Tours & Travel is built on truth, respect, and divine timing. We offer reliable matatu and private vehicle services for communities, hotels, and institutions.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>PSV Transport (Daily Routes)</li>
+        <li>Private Vehicle Hire</li>
+        <li>Event Transport (Weddings, Funerals, Church)</li>
+        <li>Long-Distance Bookings</li>
+      </ul>
+    </section>
+
+    <section id="hire">
+      <h2>Hire a Vehicle</h2>
+      <form action="#" method="post">
+        <input type="text" placeholder="Your Name" required />
+        <input type="tel" placeholder="Phone Number" required />
+        <select>
+          <option value="">-- Hire Type --</option>
+          <option>PSV</option>
+          <option>Private Use</option>
+          <option>Wedding</option>
+          <option>Funeral</option>
+          <option>Church/School</option>
+        </select>
+        <input type="text" placeholder="Pickup Location" required />
+        <input type="text" placeholder="Destination" required />
+        <input type="date" required />
+        <textarea placeholder="Additional Details"></textarea>
+        <button type="submit">Submit Request</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:patricknganga457@gmail.com">patricknganga457@gmail.com</a></p>
+      <p>Phone: <a href="tel:+254797817955">+254 797 817 955</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Jeans Tours & Travel Co. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
